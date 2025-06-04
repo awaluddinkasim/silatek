@@ -10,7 +10,7 @@
 
         <div class="details">
             <table>
-                @if ($pengajuan->layanan == 'seminar-ta')
+                @if (config('layanan')[$pengajuan->layanan]['tipe'] == 'seminar-ta')
                     <tr>
                         <td class="label">Nomor Surat Keputusan</td>
                         <td class="value">{{ $pengajuan->surat->nomor_sk }}</td>
