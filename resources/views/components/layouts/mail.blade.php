@@ -45,6 +45,13 @@
             margin-bottom: 20px;
         }
 
+        .notification-box-danger {
+            background-color: #faf1f1;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
         .content {
             background-color: #ffffff;
             padding: 20px;

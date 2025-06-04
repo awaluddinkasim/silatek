@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Dekan;
 
+use App\Events\PengajuanDitolak;
 use App\Events\SuratSelesai;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
@@ -154,6 +155,8 @@ class SuratController extends Controller
         $pengajuan->surat->delete();
 
         $pengajuan->update();
+
+        event(new PengajuanDitolak($pengajuan));
 
         return to_route('dekan.surat', $layanan)->with('success', 'Surat berhasil ditolak');
     }

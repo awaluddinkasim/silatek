@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Staf;
 
+use App\Events\PengajuanDitolak;
 use App\Events\SuratDibuat;
 use App\Http\Controllers\Controller;
 use App\Models\Pengajuan;
@@ -328,6 +329,8 @@ class SuratController extends Controller
         $pengajuan->alasan_ditolak = $request->alasan;
 
         $pengajuan->update();
+
+        event(new PengajuanDitolak($pengajuan));
 
         return to_route('staf.layanan', $layanan)->with('success', 'Pengajuan berhasil ditolak');
     }
