@@ -83,7 +83,7 @@
                     class="mt-1 w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-red-500 text-white hover:bg-red-700 focus:outline-hidden focus:bg-red-700 disabled:opacity-50 disabled:pointer-events-none"
                     aria-haspopup="dialog" aria-expanded="false" aria-controls="tolakPengajuan"
                     data-hs-overlay="#tolakPengajuan">
-                    <i data-lucide="x" class="w-4 h-4"></i> Tolak Pengajuan
+                    <i data-lucide="x" class="w-4 h-4"></i> Berkas Tidak Sesuai
                 </button>
 
                 <div id="formSurat"
@@ -256,7 +256,7 @@
                                     </button>
                                     <button type="submit"
                                         class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
-                                        Tolak Pengajuan
+                                        Kembalikan Pengajuan
                                     </button>
                                 </div>
                             </form>
