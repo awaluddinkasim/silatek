@@ -41,7 +41,7 @@ class AccountController extends Controller
     {
         $data = $request->validate([
             'nama' => ['required'],
-            'email' => ['required', 'email', 'unique:dekan,email,' . auth('dekan')->user()->id],
+            'email' => ['required', 'email', 'unique:admin,email,' . auth('admin')->user()->id],
         ]);
 
         $this->adminRepository->update(auth('admin')->user()->id, $data);
