@@ -126,9 +126,9 @@
                                         </select>
                                     </div>
                                     <div class="mb-3">
-                                        <label for="tanggalSuratInput" class="block text-sm font-medium mb-2">Tanggal
-                                            Surat</label>
-                                        <input type="date" id="tanggalSuratInput" name="tanggal_surat"
+                                        <label for="tahunAjaranInput" class="block text-sm font-medium mb-2">Tahun
+                                            Ajaran</label>
+                                        <input type="text" id="tahunAjaranInput" name="tahun_ajaran"
                                             class="py-2.5 sm:py-3 px-4 block w-full border border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
                                             required>
                                     </div>
