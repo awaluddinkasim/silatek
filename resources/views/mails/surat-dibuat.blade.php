@@ -55,5 +55,9 @@
                 </tr>
             </table>
         </div>
+
+        <div class="button-container">
+            <a href="{{ route('dekan.surat', $pengajuan->layanan) }}" class="button">Buka Pengajuan Surat</a>
+        </div>
     </div>
 </x-layouts.mail>

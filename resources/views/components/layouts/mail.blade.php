@@ -104,10 +104,21 @@
             display: inline-block;
             background-color: #2a5885;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #1e3f5c;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 25px 0;
         }
 
         .urgent {
@@ -122,6 +133,12 @@
         @media only screen and (max-width: 480px) {
             body {
                 padding: 10px;
+            }
+
+            .button {
+                display: block;
+                text-align: center;
+                padding: 15px 20px;
             }
         }
     </style>

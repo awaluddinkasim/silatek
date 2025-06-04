@@ -38,5 +38,9 @@
                 </tr>
             </table>
         </div>
+
+        <div class="button-container">
+            <a href="{{ route('staf.layanan', $pengajuan->layanan) }}" class="button">Buka Daftar Pengajuan</a>
+        </div>
     </div>
 </x-layouts.mail>

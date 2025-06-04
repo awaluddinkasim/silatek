@@ -23,5 +23,9 @@
                 </tr>
             </table>
         </div>
+
+        <div class="button-container">
+            <a href="{{ route('pengajuan', $pengajuan->layanan) }}" class="button">Buka Pengajuan Layanan</a>
+        </div>
     </div>
 </x-layouts.mail>
