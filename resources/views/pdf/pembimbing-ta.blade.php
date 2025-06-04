@@ -167,8 +167,8 @@
             <td>Pertama</td>
             <td class="center" style="width: 10pt">:</td>
             <td>
-                Mahasiswa Fakultas Teknik UIM Al-Gazali yang akan melakukan Kuliah Praktek Industri (KPI) perlu
-                dibimbing oleh dosen pembimbing yang akan ditetapkan/diangkat dengan surat keputusan Dekan Fakultas
+                Mahasiswa Fakultas Teknik UIM Al-Gazali yang akan melakukan tugas akhir perlu dibimbing oleh dosen
+                pembimbing yang akan ditetapkan/diangkat dengan surat keputusan Dekan Fakultas
                 Teknik UIM Al-Gazali.
             </td>
         </tr>
@@ -201,7 +201,7 @@
             <td>Ketiga</td>
             <td class="center" style="width: 10pt">:</td>
             <td>
-                Mahasiswa yang melakukan Kuliah Praktek INdustri (KPI) adalah :
+                Mahasiswa yang akan melakukan penelitian Tugas Akhir/penulisan Skripsi adalah :
                 <table>
                     <tr>
                         <td>Nama</td>
